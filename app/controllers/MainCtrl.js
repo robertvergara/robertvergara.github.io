@@ -1,3 +1,3 @@
-AmandaGrayApp.controller('MainCtrl', function($scope){
+RobVergaraApp.controller('MainCtrl', function($scope){
 
 });
