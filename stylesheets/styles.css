@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+  font-family: brandon-grotesque-regular;
+  src: url(../fonts/Brandon_Grotesque/Brandon_reg.otf);
+}
+
+@font-face {
+font-family: brandon-grotesque-regular;
+src: url(../fonts/Brandon_Grotesque/Brandon_bld.otf);
+font-weight:bold;
+}
+
+.ng-scope {
+  background: black;
+}
+
+.clear {
+    clear: both;
+}
+
+html, body, .main-body {
+  font-size: 118%;
+  min-height:100%;
+  background: black;
+  margin: none;
+  font-family: brandon-grotesque-regular;
+  line-height: 1.4;
+}
+
+.wrapper {
+  margin: 0 auto;
+  min-height: 100%;
+  width: 100%;
+}
+
+/* header */
+.navbar-nav {
+  margin: 0;
+}
+.navbar-brand {
+  background-color: black;
+  padding: 15px;
+  font-size: 1.5em;
+  color: #fc518b;
+}
+
+.navbar-brand:hover{
+  color: yellow;
+}
+
+/* main nav */
+.main-nav {
+  list-style-type: none;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-nav a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+/*.container {
+  margin: 0 auto;
+  width: 96%;
+}*/
+
+.main-nav .section {
+  padding: 20px 0;
+  border-bottom: 2px solid black;
+}
+
+.about {
+  background: #eee2d4;
+}
+
+.publications {
+  background-color: #ee6be2;
+}
+
+.blog {
+  background-color: #fc518b;
+}
+
+.contact {
+  background-color: #7ee9cd;
+}
+
+.main-nav h3 {
+  padding-left: 20px;
+  margin: 0;
+  cursor: pointer;
+}
+
+#pub-arrow, #abo-arrow, #con-arrow, #blo-arrow {
+  display: none;
+}
+
+#pub:hover #pub-arrow {
+  display: inline-block;
+}
+
+#abo:hover #abo-arrow {
+  display: inline-block;
+}
+
+#con:hover #con-arrow {
+  display: inline-block;
+}
+
+#blo:hover #blo-arrow {
+  display: inline-block;
+}
+
+.selected {
+  text-align: center;
+}
+
+/* footer */
+#footer {
+  clear: both;
+  height: 60px;
+  background-color: black;
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+
+.footer-text {
+  font-size: .9em;
+  color: #fc518b;
+  padding: 22px;
+  float: right;
+}
+
+.footer-text:hover {
+  color: yellow;
+}
