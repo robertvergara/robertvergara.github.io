@@ -10,7 +10,6 @@
 
 html, body {
   font-size: 118%;
-  min-height:100%;
   margin: none;
   font-family: helvetica;
   line-height: 1.4;
@@ -21,4 +20,50 @@ html, body {
   margin: 0 auto;
   min-height: 100%;
   width: 100%;
+  max-width: 960px;
+}
+
+header .logo {
+  float: left;
+  display: block;
+  background-repeat: no-repeat;
+  padding: 10px 0;
+  font-size: 25px;
+  padding: 20px;
+  margin-left: 8px;
+}
+
+header .main-nav {
+  float: right;
+  display: block;
+  padding: 22px 0;
+  margin-right: 30px;
+}
+
+ul .list-horizontal {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+header li {
+  display: inline;
+  margin: 5px;
+}
+
+#container {
+  width: 96%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.pic-container {
+    width: 400px;
+    height: 270px;
+}
+
+/* resize images */
+.pic-container img {
+    width: 100%;
+    height: auto;
 }
