@@ -11,9 +11,10 @@
 html, body {
   font-size: 118%;
   margin: none;
-  font-family: helvetica;
+  font-family: 'arialblack','Arial Black',Arial;
   line-height: 1.4;
   text-align: center;
+  background-color: #F2F2F3;
 }
 
 .wrapper {
@@ -26,18 +27,21 @@ html, body {
 header .logo {
   float: left;
   display: block;
+  color: #1FDA9A;
   background-repeat: no-repeat;
   padding: 10px 0;
-  font-size: 25px;
-  padding: 20px;
-  margin-left: 8px;
 }
 
 header .main-nav {
   float: right;
   display: block;
   padding: 22px 0;
-  margin-right: 30px;
+  position: relative;
+  top: 15px;
+}
+
+.donate-link {
+  color: #EE4B3E;
 }
 
 ul .list-horizontal {
@@ -49,6 +53,18 @@ ul .list-horizontal {
 header li {
   display: inline;
   margin: 5px;
+}
+
+.banner {
+  background-color: #EE4B3E;
+}
+
+.banner h1 {
+  color: #F5EACD;
+}
+
+h2, a {
+  color: #1FDA9A;
 }
 
 #container {
@@ -63,7 +79,8 @@ header li {
 
 .donate {
   padding: 20px;
-}
+/*  background-color: #E9BC1B;
+*/}
 
 .pic-container {
     width: 400px;
@@ -78,4 +95,5 @@ header li {
 
 p {
   font-size: 1em;
+  font-family: arial;
 }
