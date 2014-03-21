@@ -57,6 +57,14 @@ header li {
   overflow: auto;
 }
 
+.pictures {
+  padding-left: 35px;
+}
+
+.donate {
+  padding: 20px;
+}
+
 .pic-container {
     width: 400px;
     height: 270px;
@@ -66,4 +74,8 @@ header li {
 .pic-container img {
     width: 100%;
     height: auto;
+}
+
+p {
+  font-size: 1em;
 }
