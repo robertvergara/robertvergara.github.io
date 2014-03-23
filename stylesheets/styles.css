@@ -40,10 +40,6 @@ header .main-nav {
   top: 15px;
 }
 
-.donate-link {
-  color: #EE4B3E;
-}
-
 #list-horizontal {
   margin: 0px;
   padding: 0px;
@@ -61,7 +57,7 @@ header li {
   color: #EE4B3E;
 }
 
-form {
+#donate {
   float: right;
   padding-left: 10px;
 }
