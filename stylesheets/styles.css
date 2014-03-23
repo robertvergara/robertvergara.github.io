@@ -44,15 +44,26 @@ header .main-nav {
   color: #EE4B3E;
 }
 
-ul .list-horizontal {
+#list-horizontal {
   margin: 0px;
   padding: 0px;
   list-style-type: none;
+  float: left;
 }
 
 header li {
   display: inline;
   margin: 5px;
+}
+
+#donate-button {
+  background-color: #F2F2F3;
+  color: #EE4B3E;
+}
+
+form {
+  float: right;
+  padding-left: 10px;
 }
 
 .banner {

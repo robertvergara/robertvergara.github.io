@@ -3,13 +3,17 @@
   <header class="header-main">
       <div class="logo"><h1>Robert Vergara</h1></div>
       <nav class="main-nav">
-        <ul class="list-horizontal">
+        <ul id="list-horizontal">
           <li><a href="#/home">Home</a></li>
          <!--  <li><a href="#/about">Story</a></li>
           <li><a href="#/blog">Blog</a></li> -->
           <!-- <li><a href="#/newsletter">Signup to Help</a></li> -->
-          <li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=4peyCkLcfUMQYwsMb5NxOH07DsqpGkIdN2_IHHY3RGhIwqXeA_A6Rv-QnqO&dispatch=5885d80a13c0db1f8e263663d3faee8d8cdcf517b037b45005cf5d4eda3b985b" target="_blank" class="donate-link">Donate</a></li>
         </ul>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="4RM94WRBWL98U">
+          <input id="donate-button" type="submit" value="Donate">
+        </form>          
       </nav>
       <div class="clear" />
   </header>
