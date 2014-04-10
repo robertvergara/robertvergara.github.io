@@ -24,6 +24,10 @@ html, body {
   max-width: 960px;
 }
 
+h2, a {
+  color: #1FDA9A;
+}
+
 header .logo {
   float: left;
   display: block;
@@ -70,10 +74,6 @@ header li {
   color: #F5EACD;
 }
 
-h2, a {
-  color: #1FDA9A;
-}
-
 #container {
   width: 96%;
   margin: 0 auto;
@@ -103,4 +103,16 @@ h2, a {
 p {
   font-size: 1em;
   font-family: arial;
+}
+
+.calendar h3 {
+  color: #F5EACD;
+}
+
+.calendar-links p {
+  font-size: .6em;
+}
+
+.calendar-links span {
+  color: #F5EACD;
 }
