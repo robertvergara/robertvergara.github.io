@@ -12,6 +12,11 @@ var RobVergaraApp = angular.module('RobVergaraApp', ['ngRoute']);
 					controller: 'MainCtrl',
 					templateUrl: '/app/partials/calendar.html'
 				})
+			.when('/art-event', 
+				{
+					controller: 'MainCtrl',
+					templateUrl: '/app/partials/art-event.html'
+				})
 			.otherwise({ redirectTo: '/home'
 				});
 	})
